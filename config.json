@@ -1,0 +1,11 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:1234@localhost:3306/raython",
+    "prod_uri": "mysql://root:1234@localhost:3306/raython",
+    "fb_uri" : "https://www.facebook.com/raheel.ali.sid",
+    "user_mail": "",
+    "user_pass": ""
+  }
+}

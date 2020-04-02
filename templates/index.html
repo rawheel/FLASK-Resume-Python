@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block body %}
+
+  <!-- Page Header -->
+  <header class="masthead" style = "background-image: url('{{ url_for('static',filename= 'img/ait.jpg') }}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>RAYTHON 1.0</h1>
+            <span class="subheading">An Ai assistant by Raheel Siddiqui</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+<!-- Todoo : fetch it using for loop from the data base -->
+
+        <div class="post-preview">
+          <a href="post.html">
+            <h2 class="post-title">
+              Ai is the future of the world
+            </h2>
+            <h3 class="post-subtitle">
+              Problems look mighty small
+            </h3>
+          </a>
+          <p class="post-meta">Posted by
+            <a href="#">Raheel Siddiqui</a>
+            on January 24, 2020</p>
+        </div>
+
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}
+
